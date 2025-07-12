@@ -26,7 +26,7 @@ I am eager to grow in the field of web development, committed to learning and ap
 
 ## Code Example
 
-```javascript
+```javascript```
 let num1 = prompt('Введите первое число');
 let num2 = prompt('Введите второе число');
 
