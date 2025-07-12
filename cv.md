@@ -22,3 +22,23 @@ I am eager to grow in the field of web development, committed to learning and ap
 - Git  
 - Markdown  
 
+---
+
+## Code Example
+
+```javascript
+let num1 = prompt('Введите первое число');
+let num2 = prompt('Введите второе число');
+
+alert(Number(num1) + Number(num2));
+
+---
+
+## Experience  
+Currently improving my front-end skills through personal projects and documentation-based learning.
+
+---
+
+## Education  
+**University:** Belarusian-Russian University (BRU)  
+**Major:** Road Construction
