@@ -127,6 +127,9 @@ pre {
 	overflow: auto;
 	font-size: 14px;
 }
+.burger {
+	display: none;
+}
 
 
 
