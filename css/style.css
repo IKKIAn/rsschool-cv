@@ -97,7 +97,14 @@ h2 {
 	font-size: 22px;
 	margin: 10px 0;
 }
-
+.footer {
+	background-color: #F8AA03;
+	color: #fff;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: auto;
+}
 
 
 
