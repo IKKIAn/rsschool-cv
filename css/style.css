@@ -48,3 +48,9 @@ header {
 .nav__li a:hover {
 	text-decoration: underline;
 }
+.wrapper {
+	width: 60%;
+	min-width: 300px;
+	background-color: #ffffff;
+	box-sizing: border-box;
+}
