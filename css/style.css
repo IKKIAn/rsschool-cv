@@ -54,3 +54,10 @@ header {
 	background-color: #ffffff;
 	box-sizing: border-box;
 }
+.sidebar {
+	width: 35%;
+	min-width: 250px;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	padding: 20px;
+}
