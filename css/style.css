@@ -22,3 +22,9 @@ body {
 	padding: 20px;
 	box-sizing: border-box;
 }
+header {
+	background-color: #F8AA03;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
