@@ -141,6 +141,21 @@ pre {
 		width: 100%;
 	}
 }
+@media (max-width: 639px) {
+	.burger {
+		display: block;
+	}
+
+	.nav {
+		flex-direction: column;
+	}
+
+	.nav__ul {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
 
 
 
