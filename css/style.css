@@ -80,7 +80,11 @@ main.container {
 	list-style: none;
 	padding: 0;
 }
-
+.contacts__li,
+.skills__ul li {
+	margin-bottom: 10px;
+	font-size: 16px;
+}
 
 
 
