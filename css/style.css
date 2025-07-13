@@ -61,3 +61,16 @@ header {
 	box-sizing: border-box;
 	padding: 20px;
 }
+main.container {
+	flex: 1 1 500px;
+	padding: 20px;
+	background-color: #ffffff;
+	max-width: 600px;
+}
+
+
+.figure--aside img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
