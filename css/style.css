@@ -74,3 +74,28 @@ main.container {
 	height: auto;
 	border-radius: 10px;
 }
+.contacts__ul,
+.skills__ul,
+.nav__ul {
+	list-style: none;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
