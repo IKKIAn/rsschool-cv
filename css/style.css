@@ -112,6 +112,13 @@ h2 {
 	padding: 20px;
 	box-sizing: border-box;
 }
+.footer__github,
+.footer__rsschool {
+	color: #fff;
+	text-decoration: none;
+	margin: 5px;
+}
+
 
 
 
