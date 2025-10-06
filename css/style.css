@@ -1,0 +1,177 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #EBEBEB;
+	font-family: sans-serif;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.layout {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 20px;
+	max-width: 1280px;
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+header {
+	background-color: #F8AA03;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.nav {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.nav__ul {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	gap: 15px;
+}
+.nav__li a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+.nav__li a:hover {
+	text-decoration: underline;
+}
+.wrapper {
+	width: 60%;
+	min-width: 300px;
+	background-color: #ffffff;
+	box-sizing: border-box;
+}
+.sidebar {
+	width: 35%;
+	min-width: 250px;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	padding: 20px;
+}
+main.container {
+	flex: 1 1 500px;
+	padding: 20px;
+	background-color: #ffffff;
+	max-width: 600px;
+}
+
+
+.figure--aside img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+.contacts__ul,
+.skills__ul,
+.nav__ul {
+	list-style: none;
+	padding: 0;
+}
+.contacts__li,
+.skills__ul li {
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+.section-title {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+h1 {
+	font-size: 28px;
+	margin-bottom: 15px;
+}
+h2 {
+	font-size: 22px;
+	margin: 10px 0;
+}
+.footer {
+	background-color: #F8AA03;
+	color: #fff;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: auto;
+}
+.header__inner,
+.footer__inner {
+	max-width: 1280px;
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.footer__github,
+.footer__rsschool {
+	color: #fff;
+	text-decoration: none;
+	margin: 5px;
+}
+.footer__rsschool img {
+	height: 30px;
+}
+pre {
+	background-color: #f0f0f0;
+	padding: 10px;
+	overflow: auto;
+	font-size: 14px;
+}
+.burger {
+	display: none;
+}
+@media (max-width: 768px) {
+	.layout {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.wrapper,
+	.sidebar {
+		width: 100%;
+	}
+}
+@media (max-width: 639px) {
+	.burger {
+		display: block;
+	}
+
+	.nav {
+		flex-direction: column;
+	}
+
+	.nav__ul {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
